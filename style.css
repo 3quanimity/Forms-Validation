@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(89,52,67,1) 0%, rgba(60,54,81,1) 49%, rgba(43,65,100,1) 100%);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+    max-width: 300px;
+}
+
+#error{
+    width : 100vw;
+    background-color: firebrick;
+    font-size: 1.3em;    
+    text-align: center;
+    margin-bottom: 20px;  
+}
