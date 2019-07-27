@@ -33,7 +33,7 @@ form.addEventListener("submit", (e) => {
     }
 
     if (password.value !== "" && (!passwordReLower.test(password.value) || !passwordReUpper.test(password.value) || !passwordReDigit.test(password.value))) {
-        messages.push("Password must be a combination of charatacters , numbers and at least a capital letter!\n")
+        messages.push("Password must be a combination of charatacters, numbers and at least a capital letter!\n")
     }
 
     if (messages.length > 0) {
